@@ -275,8 +275,8 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 27vw;
-        height: 20vh;
+        width: 200px;
+        height: 200px;
     }
     
     #normal-navbar a{
@@ -319,7 +319,7 @@ footer{
 
     .contacts__tab a{
         width: 20%;
-        margin: 1% 2.5% 1% 2.5%;
+        margin: 0% 4% 0% 4%;
         padding:1%;
     }
 
@@ -347,8 +347,8 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: space;
-        width: 27vw;
-        height: 25vh;
+        width: 200px;
+        height: 200px;
 
     }
     
