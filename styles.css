@@ -283,7 +283,7 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 25vw;
+        width: 150px;
     }
 
     main{
@@ -325,7 +325,7 @@ footer{
 
     #mobile-contacts.active4{
         position:absolute;
-        top: 200px;
+        top: 100%;
         margin: 1%;    
         width: 100%;
         font-weight: bold;     
@@ -356,6 +356,6 @@ footer{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 25vw;
+        width: 150px;
     }
 }
