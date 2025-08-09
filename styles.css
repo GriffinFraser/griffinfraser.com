@@ -191,7 +191,8 @@ p{
     #mobile-navbar{
         position:absolute;
         left:10%;
-        top: 0px;           
+        top: 0px;
+        margin: 1%;           
     }
 
     #mobile-tab{
