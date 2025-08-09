@@ -24,7 +24,8 @@ body{
 h1{
     font-family: Verdana, sans-serif;
     font-size: 2vw;
-    text-align: center;    
+    text-align: center;   
+    margin: 2%; 
 }
 
 main{
@@ -39,8 +40,9 @@ p{
 }
 
 /* navbars */
-#mboile__navbar{
- position:-1000px;
+#mobile-navbar{
+    position: absolute;
+    top:-1000px;
 }
 
 .navbar{
@@ -268,5 +270,11 @@ p{
         flex-direction: column;
         justify-content: center;
         width: 25vw;
+    }
+
+    main{
+    position: relative;
+    top: 50px;
+    z-index: -1;
     }
 }
