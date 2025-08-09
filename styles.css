@@ -194,6 +194,14 @@ footer{
 /* Mobile 960*/
 
 @media screen and (max-width:800px){
+    h1{
+    font-size: 1.5rem;
+    }
+
+    p{
+    font-size: 1rem
+    }
+
     #normal-navbar{
         position:absolute;
         top: -1000px;       
@@ -224,6 +232,7 @@ footer{
     width: 1rem;
     position: relative;
     left: 4px;
+    margin: 0 5px 0 0;
     }
 
     .navbar__toggle span{
@@ -277,6 +286,7 @@ footer{
         justify-content: center;
         width: 200px;
         height: 200px;
+        padding: 2% 0%;
     }
     
     #normal-navbar a{
@@ -349,13 +359,13 @@ footer{
         justify-content: space;
         width: 200px;
         height: 200px;
-
+        padding: 2% 0%;
     }
     
     #normal-contacts a{
         display: flex;
         flex-direction: column;
         justify-content: center;
-        width: 150px;
+        width: 150px;   
     }
 }
