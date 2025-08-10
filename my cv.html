@@ -18,11 +18,22 @@
     </head>
 
     <body class="my__cv">
-        <nav class="navbar my__cv">   
+        <nav class="navbar my__cv" id="normal-navbar">   
             <div class="navbar__tab">
                 <a href="index.html" id="home-page-button"> Home Page </a>
-                <a href="my cv.html" class="active" id="my-cv-button"> My CV </a>
+                <a href="my cv.html"  class="active" id="my-cv-button"> My CV </a>
                 <a href="media log.html" id="media-log-button"> Media Log </a>
+            </div>
+        </nav>
+
+        <nav class="navbar my__cv" id="mobile-navbar">  
+            <div class="navbar__tab" id="mobile-tab">
+                <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                </div>
+                <a href="my cv.html"  class="active" id="my-cv-button"> My CV </a>
             </div>
         </nav>
 
@@ -32,13 +43,16 @@
             </h1>
 
             <p>
-                <iframe src="https://1drv.ms/w/c/c0da2e29dbf1aeb9/IQSrv5olFxE0Srv3r4HjE5BSAfcU1I_nIuDcs56mIwmCi0I?em=2&amp;wdEmbedCode=0" width="630px" height="700px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+            
             </p>
+            <div id="my-cv">
+                <iframe src="https://1drv.ms/w/c/c0da2e29dbf1aeb9/IQSrv5olFxE0Srv3r4HjE5BSAfcU1I_nIuDcs56mIwmCi0I?em=2&amp;wdEmbedCode=0" width="630px" height="700px" frameborder="0">This is an embedded <a target="_blank" href="https://office.com">Microsoft Office</a> document, powered by <a target="_blank" href="https://office.com/webapps">Office</a>.</iframe>
+            </div>
         </main>
     </body>
     
     <footer>
-        <nav class="contacts my__cv">   
+        <nav class="contacts my__cv" id="normal-contacts">   
             <div class="contacts__tab">
                 <a href="mailto:griffinfraser101@gmail.com" target="_blank"> Email </a>
                 <a href="https://www.facebook.com/griffin.fraser.79" target="_blank"> Facebook </a>
@@ -46,5 +60,12 @@
                 <a href="https://www.linkedin.com/in/griffinfraser" target="_blank"> LinkedIn </a>
             </div>
         </nav>
+
+        <nav class="contacts my__cv" id="mobile-contacts">   
+            <div class="contacts__tab" id="mobile-contacts-tab">
+                <a> Contacts </a>
+            </div>
+        </nav>
     </footer>
+<script src="app.js"></script>
 </html> 

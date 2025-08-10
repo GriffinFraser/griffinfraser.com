@@ -18,10 +18,21 @@
     </head>
 
     <body class="media__log">
-        <nav class="navbar media__log">   
+        <nav class="navbar media__log" id="normal-navbar">   
             <div class="navbar__tab">
                 <a href="index.html" id="home-page-button"> Home Page </a>
                 <a href="my cv.html" id="my-cv-button"> My CV </a>
+                <a href="media log.html" class="active" id="media-log-button"> Media Log </a>
+            </div>
+        </nav>
+
+        <nav class="navbar media__log" id="mobile-navbar">  
+            <div class="navbar__tab" id="mobile-tab">
+                <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                </div>
                 <a href="media log.html" class="active" id="media-log-button"> Media Log </a>
             </div>
         </nav>
@@ -38,7 +49,7 @@
     </body>
     
     <footer>
-        <nav class="contacts media__log">   
+        <nav class="contacts media__log" id="normal-contacts">   
             <div class="contacts__tab">
                 <a href="mailto:griffinfraser101@gmail.com" target="_blank"> Email </a>
                 <a href="https://www.facebook.com/griffin.fraser.79" target="_blank"> Facebook </a>
@@ -46,5 +57,12 @@
                 <a href="https://www.linkedin.com/in/griffinfraser" target="_blank"> LinkedIn </a>
             </div>
         </nav>
+
+        <nav class="contacts media__log" id="mobile-contacts">   
+            <div class="contacts__tab" id="mobile-contacts-tab">
+                <a> Contacts </a>
+            </div>
+        </nav>
     </footer>
+<script src="app.js"></script>
 </html> 

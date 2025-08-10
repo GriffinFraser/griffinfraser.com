@@ -190,8 +190,12 @@ footer{
     background-color: #3d3b3e;
     color: #f2f2f2;
 }
+/* onedrive embeds*/
+#my-cv{
+    justify-self: center;
+}
 
-/* Mobile 960*/
+/* Mobile */
 
 @media screen and (max-width:800px){
     h1{
@@ -367,5 +371,15 @@ footer{
         flex-direction: column;
         justify-content: center;
         width: 150px;   
+    }
+
+/* onedrive embeds */
+    #my-cv{
+
+    }
+
+    #my-cv iframe{
+        width: 90vw;
+        aspect-ratio: 700/615;
     }
 }
