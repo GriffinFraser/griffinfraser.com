@@ -118,7 +118,7 @@ p{
 
 #my-cv-button:hover{
     background-color: #d2f1f5;
-    color: #4a82cd;
+    color: #4491f6;
 }
 
 #media-log-button:hover{
@@ -382,4 +382,5 @@ footer{
         width: 90vw;
         aspect-ratio: 700/615;
     }
+
 }
