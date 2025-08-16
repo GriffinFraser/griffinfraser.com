@@ -195,6 +195,12 @@ footer{
     justify-self: center;
 }
 
+iframe{
+    justify-self: center;
+    width: 630px;
+    height: 700px;
+}
+
 /* Mobile */
 
 @media screen and (max-width:800px){
