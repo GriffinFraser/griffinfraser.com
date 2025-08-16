@@ -375,9 +375,15 @@ footer{
 /* onedrive embeds */
     main{
         margin-top: 2rem;
+        width: 100%;
     }
 
-    main{
+    iframe{
         width: 100%;
+        aspect-ratio: 630/700;
+    }
+
+    #my-cv{
+        width: 90%;        
     }
 }
