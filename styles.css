@@ -384,12 +384,13 @@ iframe{
         width: 100%;
     }
 
-    iframe{
+    iframe a{
         width: 100%;
         aspect-ratio: 630/700;
     }
 
     #my-cv{
-        width: 90%;        
+        width: 90%;    
+        justify-self: center;    
     }
 }
