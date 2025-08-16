@@ -391,7 +391,7 @@ iframe{
     }
 
     #my-cv{
-        width: 90%;    
+        width: 100%;    
         justify-self: center; 
     }
 }
