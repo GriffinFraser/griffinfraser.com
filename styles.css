@@ -208,7 +208,7 @@ footer{
 
     #normal-navbar{
         position:absolute;
-        top: -1000px;       
+        top: -100000px;       
     }
 
     #mobile-navbar{
@@ -304,7 +304,6 @@ footer{
         text-align: center;
         position: relative;
         top: 60px;
-        z-index: -1;
     }
 
     main.active3{
@@ -374,14 +373,11 @@ footer{
     }
 
 /* onedrive embeds */
-    #my-cv{
-
+    main{
+        margin-top: 2rem;
     }
 
-    #my-cv iframe{
-        width: 90vw;
-        aspect-ratio: 700/615;
+    main{
+        width: 100%;
     }
-
 }
-

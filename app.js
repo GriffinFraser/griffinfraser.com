@@ -8,10 +8,11 @@ menu.addEventListener('click', function(){
     menuMain.classList.toggle('active3');
 });
 
+const contactsTab = document.querySelector('#mobile-contacts-tab')
 const contacts = document.querySelector('#mobile-contacts')
 const contactsLinks = document.querySelector('#normal-contacts')
 
-contacts.addEventListener('click', function(){
+contactsTab.addEventListener('click', function(){
     contacts.classList.toggle('active4');
     contactsLinks.classList.toggle('active5');
 });
