@@ -385,12 +385,13 @@ iframe{
     }
 
     iframe{
+        justify-self: center;
         width: 100%;
         aspect-ratio: 630/700;
     }
 
     #my-cv{
         width: 90%;    
-        justify-content: center;    
+        justify-self: center; 
     }
 }
