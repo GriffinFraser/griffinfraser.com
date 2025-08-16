@@ -384,7 +384,7 @@ iframe{
         width: 100%;
     }
 
-    iframe a{
+    iframe{
         width: 100%;
         aspect-ratio: 630/700;
     }
