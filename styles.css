@@ -195,10 +195,16 @@ footer{
     justify-self: center;
 }
 
-iframe{
+.my__cv iframe{
     justify-self: center;
     width: 630px;
     height: 700px;
+}
+
+.media__log iframe{
+    justify-self: center;
+    width: 1200px;
+    height: 600px;
 }
 
 /* Mobile */
